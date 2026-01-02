@@ -21,6 +21,11 @@
 3. 执行「表结构示例」中的SQL脚本，创建对应的数据库表；
 4. 编译运行项目，即可进入串口助手界面使用。
 
+## 🔧 本地配置说明
+- 在本地项目中创建`App.config`文件，填入自己的数据库连接字符串；
+- 连接字符串格式参考：`Server=你的数据库服务器;Database=你的数据库名;Uid=用户名;Pwd=密码;`
+- `App.config`已被`.gitignore`过滤，不会提交到GitHub，保护敏感信息不泄露。
+
 
 ## 🗄️ 数据库配置说明
 ### 1. 表结构示例（SQL脚本，直接在数据库执行即可）
@@ -32,7 +37,3 @@ CREATE TABLE User (
     Password NVARCHAR(50) NOT NULL, -- 用户密码（建议加密存储）
     CreateTime DATETIME DEFAULT GETDATE() -- 账号创建时间，默认当前时间
 );
-2. 本地配置说明
-在本地项目中创建App.config文件，填入自己的数据库连接字符串；
-连接字符串格式参考：Server=你的数据库服务器;Database=你的数据库名;Uid=用户名;Pwd=密码;
-App.config已被.gitignore过滤，不会提交到 GitHub，保护敏感信息不泄露。
