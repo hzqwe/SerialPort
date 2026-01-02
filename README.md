@@ -21,9 +21,9 @@
 
 ## 🗄️ 数据库配置说明
 ### 1. 表结构示例（SQL脚本，直接在数据库执行即可）
-#### 用户表（UserInfo）
+#### 用户表（User）
 ```sql
-CREATE TABLE UserInfo (
+CREATE TABLE User (
     Id INT PRIMARY KEY IDENTITY(1,1), -- 自增主键
     UserName NVARCHAR(50) NOT NULL UNIQUE, -- 用户名（唯一，不可重复）
     Password NVARCHAR(50) NOT NULL, -- 用户密码（建议加密存储）
