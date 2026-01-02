@@ -1,0 +1,16 @@
+D:\winformPractice\SerialPort\SerialPort\bin\Debug\SerialPort.exe.config
+D:\winformPractice\SerialPort\SerialPort\bin\Debug\SerialPort.exe
+D:\winformPractice\SerialPort\SerialPort\bin\Debug\SerialPort.pdb
+D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPort.csproj.AssemblyReference.cache
+D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPort.csproj.GenerateResource.cache
+D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPort.csproj.CoreCompileInputs.cache
+D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPort.exe
+D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPort.pdb
+D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPortDebugAssistant.Form1.resources
+D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPortDebugTool.Properties.Resources.resources
+D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPortDebugTool.Login.resources
+D:\winformPractice\SerialPort\SerialPort\bin\Debug\SqlSugar.dll
+D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPort.csproj.Up2Date
+D:\winformPractice\SerialPort\SerialPort\bin\Debug\Newtonsoft.Json.dll
+D:\winformPractice\SerialPort\SerialPort\bin\Debug\Newtonsoft.Json.xml
+D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPortDebugTool.RegisterForm.resources
