@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration; 
 using System.Dynamic;
 using SqlSugar;
 
@@ -16,10 +17,11 @@ namespace SerialPortDebugTool.Utils
         {
             var connectionConfig = new ConnectionConfig
             {
-                ConnectionString= "Server=localhost;Database=PracticalCommunication;Uid=ze;Pwd=hz15317122499",
-                DbType=DbType.SqlServer,
-                IsAutoCloseConnection=true,
-                InitKeyType=InitKeyType.Attribute
+                // 直接在ConnectionConfig内拼接连接字符串
+                ConnectionString = $"Server={ConfigurationManager.AppSettings["DbServer"]};Database={ConfigurationManager.AppSettings["DbName"]};Uid={ConfigurationManager.AppSettings["DbUser"]};Pwd={ConfigurationManager.AppSettings["DbPwd"]};",
+                DbType = DbType.SqlServer,
+                IsAutoCloseConnection = true,
+                InitKeyType = InitKeyType.Attribute
             };
 
             return new SqlSugarClient(connectionConfig);

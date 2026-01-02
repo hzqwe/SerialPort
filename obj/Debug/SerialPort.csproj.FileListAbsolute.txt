@@ -14,3 +14,5 @@ D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPort.csproj.Up2Date
 D:\winformPractice\SerialPort\SerialPort\bin\Debug\Newtonsoft.Json.dll
 D:\winformPractice\SerialPort\SerialPort\bin\Debug\Newtonsoft.Json.xml
 D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPortDebugTool.RegisterForm.resources
+D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPort.csproj.SuggestedBindingRedirects.cache
+D:\winformPractice\SerialPort\SerialPort\obj\Debug\SerialPort.exe.config
