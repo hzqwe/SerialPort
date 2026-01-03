@@ -304,9 +304,5 @@ namespace SerialPortDebugAssistant
             sendTimer?.Dispose();
         }
 
-        private void button_OpenSerial_Click_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }
